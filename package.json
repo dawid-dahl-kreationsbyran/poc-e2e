@@ -1,0 +1,31 @@
+{
+	"name": "poc-e2e",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx cypress open",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dawid-dahl-kreationsbyran/poc-e2e.git"
+	},
+	"engines": {
+		"node": "17.x"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dawid-dahl-kreationsbyran/poc-e2e/issues"
+	},
+	"homepage": "https://github.com/dawid-dahl-kreationsbyran/poc-e2e#readme",
+	"dependencies": {
+		"dotenv": "^16.0.1",
+		"nodemon": "^2.0.19"
+	},
+	"devDependencies": {
+		"cypress": "^10.3.0",
+		"typescript": "^4.7.4"
+	}
+}
