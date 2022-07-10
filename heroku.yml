@@ -1,6 +1,5 @@
 build:
     docker:
-        cypress: "cypress/included:10.3.0"
+        cypress: cypress/included:10.3.0
 run:
-    image: "cypress/included:10.3.0"
     web: npm start
