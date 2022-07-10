@@ -1,8 +1,7 @@
 version: "3.2"
 services:
     cypress:
-        context: .
-        target: prod
+        image: cypress/included:10.3.0
         working_dir: /cypress
         env_file: .env
         volumes:
