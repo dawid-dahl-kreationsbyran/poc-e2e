@@ -4,4 +4,4 @@ COPY . .
 
 RUN npm install
 
-CMD ["npm", "start"]
+CMD npx cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e
