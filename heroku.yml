@@ -1,5 +1,5 @@
 build:
     docker:
-        web: cypress/included:10.3.0
+        web: docker-compose.yml
 run:
     web: npm start
