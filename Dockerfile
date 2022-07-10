@@ -4,6 +4,4 @@ COPY . .
 
 RUN npm install
 
-WORKDIR /cypress
-
 CMD ["npm", "start"]
