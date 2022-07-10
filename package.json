@@ -4,9 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "docker-compose up --exit-code-from cypress",
-		"start-on-host": "npx cypress open",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "npx cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e"
 	},
 	"repository": {
 		"type": "git",
@@ -22,8 +20,7 @@
 	},
 	"homepage": "https://github.com/dawid-dahl-kreationsbyran/poc-e2e#readme",
 	"dependencies": {
-		"dotenv": "^16.0.1",
-		"nodemon": "^2.0.19"
+		"dotenv": "^16.0.1"
 	},
 	"devDependencies": {
 		"cypress": "^10.3.0",
