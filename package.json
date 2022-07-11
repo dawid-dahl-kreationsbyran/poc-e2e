@@ -4,10 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "npm start",
-		"start-server": "npm start",
-		"cy:run": "cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e",
-		"cy:ci": "start-server-and-test start-server http://localhost:3000 cy:run"
+		"start": "npx cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e"
 	},
 	"repository": {
 		"type": "git",
