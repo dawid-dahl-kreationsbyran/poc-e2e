@@ -4,7 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "npx cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e"
+		"start": "npx cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e",
+		"start-server": "npm start",
+		"cy:run": "npx cypress run --record --key 587b9bd3-e8f9-4224-9da0-458e151c112e",
+		"cy:ci": "start-server-and-test start-server http://localhost:3000 cy:run"
 	},
 	"repository": {
 		"type": "git",
@@ -24,6 +27,7 @@
 	},
 	"devDependencies": {
 		"cypress": "^10.3.0",
+		"start-server-and-test": "^1.14.0",
 		"typescript": "^4.7.4"
 	}
 }
